@@ -18,19 +18,19 @@ export const NavigationItems = [
     href: '/notes',
     type: 'internal',
   },
-  {
-    name: 'Creating',
-    href: '/creating',
-    type: 'internal',
-  },
-  {
-    name: 'Uses',
-    href: '/uses',
-    type: 'internal',
-  },
+  // {
+  //   name: 'Creating',
+  //   href: '/creating',
+  //   type: 'internal',
+  // },
+  // {
+  //   name: 'Uses',
+  //   href: '/uses',
+  //   type: 'internal',
+  // },
   {
     name: 'Resume',
-    href: 'https://cv.jarocki.me',
+    href: 'https://cv.jieying.li',
     type: 'external',
   },
   {
