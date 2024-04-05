@@ -23,11 +23,11 @@ export const NavigationItems = [
   //   href: '/creating',
   //   type: 'internal',
   // },
-  // {
-  //   name: 'Uses',
-  //   href: '/uses',
-  //   type: 'internal',
-  // },
+  {
+    name: 'Uses',
+    href: '/uses',
+    type: 'internal',
+  },
   {
     name: 'Resume',
     href: 'https://cv.jieying.li',

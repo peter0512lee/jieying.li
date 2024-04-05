@@ -1,4 +1,4 @@
-![screenshot](screenshots/screenshot.png)
+<!-- ![screenshot](screenshots/screenshot.png) -->
 
 # Jie-Ying Li - Personal website built using Next.js and Notion as headless CMS
 
@@ -41,13 +41,13 @@ Here's how the database in Notion should look like:
 After defining environment variables and your Notion database, run the application
 
 ```bash
-git clone https://github.com/BartoszJarocki/web-jarocki-me
-cd web-jarocki-me
+git clone https://github.com/peter0512lee/jieying.li
+cd jieying.li
 yarn
 yarn dev
 ```
 
-## OG images generation
+<!-- ## OG images generation
 
 Application generates Open Graph images automatically using lambda functions and Puppetter
 
@@ -55,16 +55,16 @@ Main page example
 ![main page OG image](https://jarocki.me/api/og?title=Bartosz%20Jarocki&description=A%20passionate%20software%20engineer%20with%20an%20eye%20for%20details%20based%20in%20Wroc%C5%82aw,%20Poland.)
 
 Blog post example
-![blog post OG image](https://jarocki.me/api/og?title=Monito,%20two%20weeks%20after%20launch&description=No%20audience,%20just%20Product%20Hunt%20and%20Hacker%20News%20launch.%20How%20did%20it%20go?)
+![blog post OG image](https://jarocki.me/api/og?title=Monito,%20two%20weeks%20after%20launch&description=No%20audience,%20just%20Product%20Hunt%20and%20Hacker%20News%20launch.%20How%20did%20it%20go?) -->
 
 ## Credits
 
 Design heavily inspired by [Tailwind UI Spotlight template](https://tailwindui.com/templates/spotlight)
 
-## Deploy to Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fweb-jarocki-me)
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Special Thanks
+
+Thanks to [Bartosz Jarocki](https://github.com/BartoszJarocki) for the idea and for the initial implementation.
