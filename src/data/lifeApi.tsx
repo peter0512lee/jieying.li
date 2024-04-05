@@ -2,34 +2,72 @@ import { ExternalLink } from '../components/ExternalLink';
 import { GitHubIcon } from '../components/icons/GitHubIcon';
 import { InstagramIcon } from '../components/icons/InstagramIcon';
 import { XIcon } from '../components/icons/XIcon';
+import { LinkedInIcon } from '../components/icons/LinkedInIcon';
 import AmbitLogo from '../images/logos/ambit.png';
 import BarepapersLogo from '../images/logos/barepapers.svg';
 import BimLogo from '../images/logos/bim.png';
 import CDGOLogo from '../images/logos/cdgo.png';
-import ClevertechLogo from '../images/logos/clevertech.png';
 import EvercastLogo from '../images/logos/evercast.svg';
 import Howdy from '../images/logos/howdy.png';
 import JarockiMeLogo from '../images/logos/jarocki.svg';
-import JojoMobileLogo from '../images/logos/jojomobile.png';
 import MonitoLogo from '../images/logos/monito.svg';
 import Consultly from '../images/logos/consultly.svg';
 import MobileVikingsLogo from '../images/logos/mv.png';
-import NSNLogo from '../images/logos/nsn.svg';
-import ParabolLogo from '../images/logos/parabol.svg';
 import TastyCloudLogo from '../images/logos/tastycloud.png';
 import YearProgressLogo from '../images/logos/yearprogress.svg';
 import Minimal from '../images/logos/minimal.svg';
-import { LinkedInIcon } from '../components/icons/LinkedInIcon';
+import MISLabLogo from '../images/logos/mislab.png';
+import NeuinXLogo from '../images/logos/neuinx.jpeg';
+import TSMCLogo from '../images/logos/tsmc.png';
+import OmniEyesLogo from '../images/logos/omnieyes.png';
 
 export const Name = 'Jie-Ying Li';
 
 export const About = (
   <>
-    {`I used to consider myself a software engineer, but the reality is that I simply enjoy creating things. If you'd like to get in touch,`}{' '}
+    {`If you'd like to get in touch,`}{' '}
     <ExternalLink href="mailto:peter0512lee@gmail.com">send me an email.</ExternalLink>
   </>
 );
 export const AboutExtended = `...`;
+
+export const SocialMedia = [
+  // { name: 'Twitter', link: 'https://twitter.com/BartoszJarocki', icon: XIcon },
+  // { name: 'Instagram', link: 'https://www.instagram.com/bartosz.jarocki/', icon: InstagramIcon },
+  { name: 'Github', link: 'https://github.com/peter0512lee', icon: GitHubIcon },
+  { name: 'LinkedIn', link: 'https://www.linkedin.com/in/jie-ying-li', icon: LinkedInIcon },
+] as const;
+
+export const Work = [
+  {
+    company: 'OmniEyes',
+    title: 'AI Algorithn Engineer',
+    logo: OmniEyesLogo,
+    start: '2023.03',
+    end: 'Present',
+  },
+  {
+    company: 'TSMC',
+    title: 'Software Engineer',
+    logo: TSMCLogo,
+    start: '2023.11',
+    end: '2024.03',
+  },
+  {
+    company: 'NeuinX',
+    title: 'Software Engineer',
+    logo: NeuinXLogo,
+    start: '2023.09',
+    end: '2023.11',
+  },
+  {
+    company: 'MISLab',
+    title: 'Research Assistant',
+    logo: MISLabLogo,
+    start: '2021.04',
+    end: '2023.08',
+  },
+] as const;
 
 export type Project = {
   title: string;
@@ -107,16 +145,6 @@ export const MyCurrentProjects: Project[] = [
 
 export const MyPastProjects: Project[] = [
   {
-    title: 'Parabol',
-    techStack: ['Full Stack Developer', 'TypeScript', 'React', 'Node.js', 'GraphQL'],
-    description: 'The Agile meeting co-pilot that delivers better meetings with less effort.',
-    logo: ParabolLogo,
-    link: {
-      label: 'github.com',
-      href: 'https://github.com/ParabolInc/parabol',
-    },
-  },
-  {
     title: 'Evercast',
     techStack: [
       'Lead Frontend Developer',
@@ -183,44 +211,6 @@ export const MyPastProjects: Project[] = [
     logo: CDGOLogo,
   },
 ];
-
-export const SocialMedia = [
-  // { name: 'Twitter', link: 'https://twitter.com/BartoszJarocki', icon: XIcon },
-  // { name: 'Instagram', link: 'https://www.instagram.com/bartosz.jarocki/', icon: InstagramIcon },
-  { name: 'Github', link: 'https://github.com/peter0512lee', icon: GitHubIcon },
-  { name: 'LinkedIn', link: 'https://www.linkedin.com/in/jie-ying-li', icon: LinkedInIcon },
-] as const;
-
-export const Work = [
-  {
-    company: 'Parabol',
-    title: 'Full Stack Developer',
-    logo: ParabolLogo,
-    start: '2021',
-    end: '2024',
-  },
-  {
-    company: 'Clevertech',
-    title: 'Lead Android Developer → Full Stack Developer',
-    logo: ClevertechLogo,
-    start: '2015',
-    end: '2021',
-  },
-  {
-    company: 'Jojo Mobile',
-    title: 'Android Developer → Lead Android Developer',
-    logo: JojoMobileLogo,
-    start: '2012',
-    end: '2015',
-  },
-  {
-    company: 'Nokia Siemens Networks',
-    title: 'C/C++ Developer',
-    logo: NSNLogo,
-    start: '2010',
-    end: '2012',
-  },
-] as const;
 
 export const CompaniesLinks = [
   {

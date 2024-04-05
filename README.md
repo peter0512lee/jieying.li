@@ -1,6 +1,6 @@
 ![screenshot](screenshots/screenshot.png)
 
-# Bartosz Jarocki - Personal website built using Next.js and Notion as headless CMS
+# Jie-Ying Li - Personal website built using Next.js and Notion as headless CMS
 
 This is my personal website built using
 

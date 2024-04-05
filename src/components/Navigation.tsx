@@ -33,11 +33,11 @@ export const NavigationItems = [
     href: 'https://cv.jieying.li',
     type: 'external',
   },
-  {
-    name: 'About',
-    href: '/about',
-    type: 'internal',
-  },
+  // {
+  //   name: 'About',
+  //   href: '/about',
+  //   type: 'internal',
+  // },
 ] as const;
 
 export const NavLink = ({ href, children }: React.PropsWithChildren<{ href: string }>) => {

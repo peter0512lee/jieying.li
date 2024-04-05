@@ -11,9 +11,9 @@ import { NotePreview } from '../components/notes/NotePreview';
 import { About, Name, SocialMedia } from '../data/lifeApi';
 import { Note, notesApi } from '../lib/notesApi';
 
-const seoTitle = 'Bartosz Jarocki';
+const seoTitle = 'Jie-Ying Li';
 const seoDescription =
-  'A passionate software engineer with an eye for details based in Wrocław, Poland.';
+  'A passionate software engineer with an eye for details based in Taipei, Taiwan.';
 
 type Props = {
   latestNotes: Note[];
