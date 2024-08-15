@@ -33,7 +33,7 @@ export const Work = [
   },
   {
     company: 'TSMC',
-    title: 'Software Engineer',
+    title: 'Data Engineer',
     logo: TSMCLogo,
     start: '2023.11',
     end: '2024.03',
@@ -57,9 +57,9 @@ export const Work = [
 export const Tools = {
   Workstation: [
     {
-      title: '13” MacBook Pro, Intel, 16GB RAM (2020)',
+      title: '13” MacBook Air, M3, 16GB RAM',
       description: "",
-      href: 'https://amzn.to/3XkWxhF',
+      href: 'https://www.apple.com/macbook-air/',
     },
     {
       title: 'Keychron K8 Pro',
@@ -72,6 +72,18 @@ export const Tools = {
       href: 'https://a.co/d/1WqIsr4',
     },
   ],
+  Gaming: [
+    {
+      title: 'Keychron K6',
+      description: "",
+      href: 'https://www.keychron.com.tw/products/keychron-k6-wireless-mechanical-keyboard',
+    },
+    {
+      title: 'Logitech G Pro X Superlight',
+      description: "",
+      href: 'https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight.910-005878.html',
+    },
+  ],
   Software: [
     {
       title: 'Visual Studio Code',
@@ -79,9 +91,19 @@ export const Tools = {
       href: 'https://code.visualstudio.com/',
     },
     {
+      title: 'Cursor',
+      description: ``,
+      href: 'https://www.cursor.com/',
+    },
+    {
       title: 'iTerm2',
       description: ``,
       href: 'https://iterm2.com/',
+    },
+    {
+      title: 'Warp',
+      description: ``,
+      href: 'https://www.warp.dev/warp-ai',
     },
     {
       title: 'Raycast',
