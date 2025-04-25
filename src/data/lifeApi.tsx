@@ -7,6 +7,7 @@ import MISLabLogo from '../images/logos/mislab.png';
 import NeuinXLogo from '../images/logos/neuinx.jpeg';
 import TSMCLogo from '../images/logos/tsmc.png';
 import OmniEyesLogo from '../images/logos/omnieyes.png';
+import TrendMicroLogo from '../images/logos/trendmicro.png';
 
 export const Name = 'Jie-Ying Li';
 
@@ -25,32 +26,25 @@ export const SocialMedia = [
 
 export const Work = [
   {
-    company: 'OmniEyes',
-    title: 'AI Algorithn Engineer',
-    logo: OmniEyesLogo,
-    start: '2024.03',
+    company: 'TrendMicro',
+    title: 'AI/ML Engineer',
+    logo: TrendMicroLogo,
+    start: '2025.02',
     end: 'Present',
   },
   {
+    company: 'OmniEyes',
+    title: 'Software Engineer',
+    logo: OmniEyesLogo,
+    start: '2024.02',
+    end: '2025.02',
+  },
+  {
     company: 'TSMC',
-    title: 'Data Engineer',
+    title: 'Software Engineer',
     logo: TSMCLogo,
     start: '2023.11',
-    end: '2024.03',
-  },
-  {
-    company: 'NeuinX',
-    title: 'Software Engineer',
-    logo: NeuinXLogo,
-    start: '2023.09',
-    end: '2023.11',
-  },
-  {
-    company: 'MISLab',
-    title: 'Research Assistant',
-    logo: MISLabLogo,
-    start: '2021.04',
-    end: '2023.08',
+    end: '2024.02',
   },
 ] as const;
 
